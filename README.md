@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GEx Toronto 2025 ISC submission
 
-## Getting Started
+A single-article news feature built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+This project was created to showcase a long-form article with responsive typography, a sidebar image gallery, and a lightbox viewer.
 
-First, run the development server:
+## 📸 Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Desktop Layout
+![Desktop Screenshot](public/images/screenshot-desktop.png)
+
+### Mobile Layout
+![Mobile Screenshot](public/images/screenshot-mobile.png)
+
+---
+
+## 🚀 Features
+
+- **Next.js App Router** with `app/` directory
+- **Sidebar gallery** with image lightbox
+- **Deployed on Vercel**
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+ ├─ layout.tsx        # Root layout (header, footer, metadata)
+ ├─ page.tsx          # Main article page
+ ├─ globals.css       # Global styles
+components/
+ ├─ Lightbox.tsx      # Image modal viewer
+ ├─ SidebarGallery.tsx # Thumbnail grid for images
+ ├─ SidebarSection.tsx # Sidebar content section
+public/
+ ├─ images/           # Static images
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
 
-## Learn More
+### 2. Install dependencies
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Run development server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Build for production
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed with [Vercel](https://vercel.com/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every push to the `main` branch triggers an automatic rebuild and redeploy.  
+You can also deploy manually via CLI:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework
+- [TypeScript](https://www.typescriptlang.org/) – Static typing
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
+- [Vercel](https://vercel.com/) – Deployment platform
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+Feel free to use it.
+
+---
+
+## ✨ Credits
+
+Created by **Isaac Ong**.
+Special thanks to the Toronto GEx 2025 cohort.
