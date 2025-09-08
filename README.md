@@ -6,10 +6,10 @@ This project was created to showcase a long-form article with responsive typogra
 ## 📸 Screenshots
 
 ### Desktop Layout
-![Desktop Screenshot](public/images/screenshot-desktop.png)
+![Desktop Screenshot](public/images/screenshot-desktop.jpg)
 
 ### Mobile Layout
-![Mobile Screenshot](public/images/screenshot-mobile.png)
+![Mobile Screenshot](public/images/screenshot-mobile.jpg)
 
 ---
 
