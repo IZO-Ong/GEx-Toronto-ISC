@@ -3,12 +3,18 @@
 A single-article news feature built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 This project was created to showcase a long-form article with responsive typography, a sidebar image gallery, and a lightbox viewer.
 
+## 🔗 Live Demo
+
+Visit the website here: [https://gex-toronto-isc.vercel.app/](https://gex-toronto-isc.vercel.app/)
+
 ## 📸 Screenshots
 
 ### Desktop Layout
+
 ![Desktop Screenshot](public/images/screenshot-desktop.jpg)
 
 ### Mobile Layout
+
 ![Mobile Screenshot](public/images/screenshot-mobile.jpg)
 
 ---
@@ -41,23 +47,27 @@ public/
 ## ⚡ Getting Started
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Run development server
+
 ```bash
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 4. Build for production
+
 ```bash
 npm run build
 npm start
