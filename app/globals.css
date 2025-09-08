@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body { background: var(--bg); color: var(--fg); }
+
+/* Make all media responsive by default */
+img, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, p, figcaption, blockquote {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ---- Theme tokens ---- */
+:root {
+  --bg: #ffffff;
+  --fg: #0a0a0a;
+  --muted: #6b7280;
+  --brand: #002D72;
+  --brand-accent: #E87722;
+}
+
+/* ---- Article typography (mobile-first) ---- */
+.article { max-width: 90ch; }
+.article p { margin: 1rem 0; line-height: 1.8; }
+
+.article h1 {
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+.article h2 {
+  font-size: clamp(1.25rem, 4.5vw, 2rem);
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.article h3 {
+  font-size: clamp(1.0625rem, 3.5vw, 1.25rem);
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.article blockquote {
+  border-left: 4px solid var(--brand);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.article figure { margin: 1.25rem 0; }
+.article figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.25rem; }
+
+/* ---- Utilities ---- */
+.caption-muted { color: var(--muted); }
+.brand { color: var(--brand); }
+.brand-bg { background: var(--brand); }
+.brand-accent { color: var(--brand-accent); }
+
+.lb-caption { background: rgba(0,0,0,0.8); color: #fff; }
+
+.thumb:hover { filter: brightness(0.95); }
