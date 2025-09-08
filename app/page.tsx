@@ -595,7 +595,7 @@ export default function Page() {
             I would also like to thank Prof Bjorn, whose dedication and support made this ISC project possible. My thanks as 
             well to TAs Fiqri and Alayna, the GEx Toronto 2025 cohort and the NUS College staff for the invaluable opportunity 
             to travel abroad and immerse myself in Toronto’s rich culture. Finally, a special note of appreciation for the 
-            recommendation of Randy’s Takeout, which I can personally confirm is 'bussin'.
+            recommendation of Randy’s Takeout, which I can personally confirm is &apos;bussin&apos;.
           </p>
 
           <figure className="my-6">
