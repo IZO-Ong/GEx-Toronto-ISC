@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen w-full overflow-x-hidden bg-white text-zinc-900 antialiased">
         <header className="border-b">
-          <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 py-4 flex items-center justify-between">
+          <div className="mx-auto w-full max-w-7xl px-8 sm:px-12 py-4 flex items-center justify-between">
             <Link href="/" className="flex flex-col leading-tight">
               <span className="brand text-3xl font-black tracking-tight">
                 <span className="text-[#002D72]">NUS</span>
@@ -59,12 +59,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main id="top" className="mx-auto w-full max-w-7xl px-4 sm:px-6 py-8">
+        <main id="top" className="mx-auto w-full max-w-7xl px-8 sm:px-12 py-8">
           {children}
         </main>
 
         <footer className="mt-12 border-t">
-          <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 py-12 text-sm text-zinc-500">
+          <div className="mx-auto w-full max-w-7xl px-8 sm:px-12 py-12 text-sm text-zinc-500">
             © {new Date().getFullYear()}. Built with Next.js & Tailwind.
           </div>
         </footer>

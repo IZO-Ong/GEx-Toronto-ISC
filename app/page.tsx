@@ -10,7 +10,7 @@ export default function Page() {
     { src: "/images/littlejamaicaintro.jpg", alt: "Little Jamaica Intro Pic", caption: "Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West", className: "mt-0" },
     { src: "/images/trafficcongestion.jpg", alt: "Traffic Congestion in Little Jamaica", caption: "Little Jamaica faces severe traffic congestion: City council held a meeting to address the issue (City of Toronto, 2025)", className: "mt-0" },
     { src: "/images/fairbank.jpg", alt: "Fairbank Station", caption: "Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica", className: "mt-33" },
-    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Construction along Eglinton West in 2020 (Baker et al., 2020)", className: "mt-310" },
+    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Construction along Eglinton West in 2020 (Baker et al., 2020)", className: "mt-303" },
     { src: "/images/experienceeglinton.jpg", alt: "Experience Eglinton Wayfinding 2019", caption: "Metrolinx’s (2019) Eglinton Crosstown LRT: Business Support Video, depicting wayfinding methods for businesses in Eglinton", className: "mt-0" },
     { src: "/images/flyers.jpg", alt: "TTC Flyers", caption: "Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability", className: "mt-65" },
     { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "City notice for new high-rise in Little Jamaica sparks vandalised comments: ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-140" },
@@ -89,6 +89,11 @@ export default function Page() {
             income was $72,936, well below the city average of $102,721 (Pitter et al., 2023a, p. 27).
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/littlejamaicaintro.jpg" alt="GEx group photo" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West</figcaption>
+        </figure>
+
         <p>
             Moreover, transportation access in Little Jamaica presents further challenges. About 60% of residents commute to work by car, 
             while 35% rely on public transit (Doyle et al., 2020a, p. 18). However, both modes of transportation face challenges. Drivers 
@@ -99,6 +104,11 @@ export default function Page() {
             commuters spend over an hour getting to work (Doyle et al., 2020a, p. 19). These factors contribute to Little 
             Jamaica’s status as a vulnerable community that is underserved by transit.
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/trafficcongestion.jpg" alt="Traffic Congestion in Little Jamaica" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Little Jamaica faces severe traffic congestion: City council held a meeting to address the issue (City of Toronto, 2025)</figcaption>
+        </figure>
 
         <h2>Metrolinx’s Equity Framework</h2>
         <p>
@@ -112,6 +122,11 @@ export default function Page() {
             incomes are up to 43% below the city average (Spurr, 2018).
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/fairbank.jpg" alt="Fairbank Station" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica</figcaption>
+        </figure>
+
         <p>
             However, Metrolinx’s approach to transit equity remains narrowly focused. In its equity report, Metrolinx identifies 
             three main areas in transit equity: transit network planning, service frequency and quality, and fare structure 
@@ -122,7 +137,6 @@ export default function Page() {
             impact low-income and racialised communities (Karner et al., 2020, p. 441).
         </p>
 
-        <h2>Adverse Outcomes</h2>
         <p>
             Metrolinx’s failure to incorporate these additional factors into its equity framework has
             resulted in significant inequities in the Eglinton Crosstown project, particularly in Little
@@ -176,6 +190,12 @@ export default function Page() {
           environment along Eglinton Avenue, making it difficult for businesses to attract customers and sustain operations and 
           thus leading to widespread closures (Baker et al., 2020, p. 19).
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/constructioneglinton.jpg" alt="Fairbank Station" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Construction along Eglinton West in 2020 (Baker et al., 2020)</figcaption>
+        </figure>
+
         <p>
             Metrolinx did attempt to mitigate the impact by partnering with local BIAs to launch Experience Eglinton — a campaign aimed 
             at encouraging continued shopping along the corridor during LRT construction (CBC News, 2019). The initiative 
@@ -187,6 +207,11 @@ export default function Page() {
             of businesses between had already closed or relocated (McLean, 2019).
 
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/experienceeglinton.jpg" alt="Experience Eglington Photo" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Metrolinx’s (2019) Eglinton Crosstown LRT: Business Support Video, depicting wayfinding methods for businesses in Eglinton</figcaption>
+        </figure>
 
         <h2>Prolonged Delays and Uncertainty</h2>
         <p>
@@ -209,6 +234,11 @@ export default function Page() {
             local businesses (Dubsky, 2023). What was initially framed as a short-term inconvenience has evolved into a prolonged 
             restriction on transportation access for a vulnerable community.
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/flyers.jpg" alt="TTC flyers" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability</figcaption>
+        </figure>
 
         <h3>Information Uncertainty for Businesses</h3>
         <p>
@@ -250,6 +280,11 @@ export default function Page() {
             the community (CP Planning, 2021, pp. 14, 15).
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/citynotice.jpg" alt="City Notice for Building Development" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">City notice for a new high-rise in Little Jamaica sparks vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’</figcaption>
+        </figure>
+
         <p>
             Rising rents have also forced many Black-owned businesses in Little Jamaica to shut down. A survey of Black business 
             owners reported steady rent increases by landlords (CP Planning, 2021). As Gordon (2018) notes, long-standing 
@@ -259,6 +294,11 @@ export default function Page() {
             residents to stay.
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/forrent.jpg" alt="For rent outside Carribean Slice" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">For rent sign placed outside of the store ‘Caribbean Slice’, a Black-owned business</figcaption>
+        </figure>
+
         <p>
             The impact of gentrification and displacement on the Little Jamaica community has been profound. Between 2006 and 2016, 
             the neighbourhood’s overall population declined by 5%, while the Black population declined by 13%, a rate three times higher
@@ -266,6 +306,11 @@ export default function Page() {
              the area had closed (Bessonov, 2020). Most strikingly, of the 110 Black-owned businesses operating in 2016, only 45 
              remained by 2021 (Draaisma, 2021). 
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/forlease.jpg" alt="For lease signs" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Stores with ‘For Lease’ or ‘For Rent’ signs are common along Little Jamaica</figcaption>
+        </figure>
 
         <p>
             In sum, the Eglinton Crosstown LRT has generated a host of negative externalities that have compounded pre-existing 
@@ -312,6 +357,16 @@ export default function Page() {
             these barriers (Metrolinx, 2025c).
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/noisebarrier.jpg" alt="Noise Barrier in Riverdale" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Noise Barrier constructed in Riverdale by Metrolinx</figcaption>
+        </figure>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/noiseblanket.jpg" alt="Noise Blanket at Pape Avenue" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Noise blankets being deployed at Pape Ontario Line construction site</figcaption>
+        </figure>
+
         <p>
             Moreover, Metrolinx has been notably more proactive in deploying mitigation measures to support local businesses affected 
             by the Ontario Line project. The agency publicly committed to developing business support strategies based on 
@@ -319,6 +374,11 @@ export default function Page() {
             their contractors to implement additional wayfinding tools aimed at maintaining customer foot traffic 
             (Metrolinx, 2025d).
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/papewayfinding.jpg" alt="Pape Wayfinding" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Wayfinding measures were quickly deployed when construction blocked visibility of Storefronts in Pape Avenue</figcaption>
+        </figure>
 
         <p>
             This contrast is particularly striking when viewed in light of the socio-economic differences between the two neighbourhoods. 
@@ -350,6 +410,11 @@ export default function Page() {
             insecurity for Black communities across Toronto (City of Toronto, 2023, p. 14).
         </p>
 
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/culturaldistrict.jpg" alt="Little Jamaica flyer" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Poster promoting Multicultural Day in Little Jamaica’s Cultural District</figcaption>
+        </figure>
+
         <p>
             Yet, local BIAs have argued that these financial supports were insufficient, noting that no additional compensation has 
             been offered since (Draaisma & Cheese, 2025). When businesses request for further compensation with subsequent 
@@ -361,6 +426,11 @@ export default function Page() {
             severe nature of the disruption, this level of support has fallen far short of what would be needed to help businesses 
             meaningfully weather the construction period.
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/consultation.jpg" alt="Nick Alampi interview" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA. (Glover, 2022)</figcaption>
+        </figure>
 
         <p>
             Additionally, the Cultural District label offers Little Jamaica no binding housing or zoning safeguards (Sabeta, 2024). 
@@ -599,9 +669,9 @@ export default function Page() {
           </p>
 
           <figure className="my-6">
-          <Image src="/images/groupphoto.jpg" alt="Hero alt" width={1600} height={900} className="rounded-md border" />
-          <figcaption className="caption-muted">GEx Toronto 2025</figcaption>
-        </figure>
+            <Image src="/images/groupphoto.jpg" alt="GEx group photo" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">GEx Toronto 2025</figcaption>
+          </figure>
         </section>
       </article>
 
