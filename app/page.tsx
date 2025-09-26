@@ -461,7 +461,7 @@ export default function Page() {
         </p>
 
         <p>
-            Word Count: 3000
+            Word Count: 2994
         </p>
         </section>
         {/* === END ARTICLE BODY === */}
