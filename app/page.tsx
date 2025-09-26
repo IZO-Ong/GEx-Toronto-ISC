@@ -264,7 +264,7 @@ export default function Page() {
             A further long-term consequence of the Eglinton Crosstown project is the risk of transit-induced gentrification 
             and displacement. Gentrification refers to the influx of higher-income residents into historically low- or 
             middle-income neighbourhoods, while displacement involves the often involuntary departure of existing residents 
-            and businesses. Zuk et al. (2018) observe, researchers consistently identify a strong correlation between public 
+            and businesses. As Zuk et al. (2018) observe, researchers consistently identify a strong correlation between public 
             investment in rail transit and rising rates of gentrification and, to a lesser extent, displacement. Improved 
             transit access tends to drive up property values and rents, attracting wealthier residents while pricing out 
             incumbent, lower-income communities.
