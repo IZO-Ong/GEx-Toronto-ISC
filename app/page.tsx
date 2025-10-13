@@ -145,7 +145,7 @@ export default function Page() {
         <ul className="list-decimal pl-6">
             <li>Disproportionate negative externalities on communities</li>
             <li>Prolonged construction delays</li>
-            <li>Transit-induced gentrification</li>
+            <li>Transit-induced gentrification and displacement</li>
         </ul>
         <p>
             To fully grasp the extent of these impacts, I will examine how they have affected two
@@ -259,7 +259,7 @@ export default function Page() {
             independently owned, the prolonged uncertainty surrounding the LRT poses a serious threat to their survival.
         </p>
 
-        <h2>Transit-Induced Gentrification</h2>
+        <h2>Transit-Induced Gentrification and Displacement</h2>
         <p>
             A further long-term consequence of the Eglinton Crosstown project is the risk of transit-induced gentrification 
             and displacement. Gentrification refers to the influx of higher-income residents into historically low- or 
@@ -461,7 +461,7 @@ export default function Page() {
         </p>
 
         <p>
-            Word Count: 2994
+            Word Count: 2998
         </p>
         </section>
         {/* === END ARTICLE BODY === */}
