@@ -3,11 +3,25 @@
 A single-article news feature built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
 This project was created to showcase a long-form article with responsive typography, a sidebar image gallery, and a lightbox viewer.
 
-## 🔗 Live Demo
+<p align="center">
+  <a href="https://gex-toronto-isc.vercel.app/">Live Demo</a> •
+  <a href="LICENSE">MIT License</a>
+</p>
 
-Visit the website here: [https://gex-toronto-isc.vercel.app/](https://gex-toronto-isc.vercel.app/)
+<p align="center">
+  <em>Single-article news feature with responsive typography, a sidebar image gallery, and a lightbox viewer.</em>
+</p>
 
-## 📸 Screenshots
+<p align="center">
+  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-5%2B-3178C6" />
+  <img alt="Next.js" src="https://img.shields.io/badge/next.js-latest-000000" />
+</p>
+
+## Live Demo
+
+Visit the website here: <a href="https://gex-toronto-isc.vercel.app/">https://gex-toronto-isc.vercel.app/</a>
+
+## Screenshots
 
 ### Desktop Layout
 
@@ -19,7 +33,7 @@ Visit the website here: [https://gex-toronto-isc.vercel.app/](https://gex-toront
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Next.js App Router** with `app/` directory
 - **Sidebar gallery** with image lightbox
@@ -27,7 +41,7 @@ Visit the website here: [https://gex-toronto-isc.vercel.app/](https://gex-toront
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 app/
@@ -41,10 +55,9 @@ components/
 public/
  ├─ images/           # Static images
 ```
-
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 
@@ -64,7 +77,7 @@ npm install
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open <a href="http://localhost:3000">http://localhost:3000</a> in your browser.
 
 ### 4. Build for production
 
@@ -75,9 +88,9 @@ npm start
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
-This project is deployed with [Vercel](https://vercel.com/).
+This project is deployed with <a href="https://vercel.com/">Vercel</a>.
 
 Every push to the `main` branch triggers an automatic rebuild and redeploy.  
 You can also deploy manually via CLI:
@@ -89,23 +102,23 @@ vercel
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- [Next.js](https://nextjs.org/) – React framework
-- [TypeScript](https://www.typescriptlang.org/) – Static typing
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
-- [Vercel](https://vercel.com/) – Deployment platform
+- <a href="https://nextjs.org/">Next.js</a> – React framework
+- <a href="https://www.typescriptlang.org/">TypeScript</a> – Static typing
+- <a href="https://tailwindcss.com/">Tailwind CSS</a> – Utility-first CSS
+- <a href="https://vercel.com/">Vercel</a> – Deployment platform
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.  
-Feel free to use it.
+See <a href="LICENSE">LICENSE</a> for details.
 
 ---
 
-## ✨ Credits
+## Credits
 
-Created by **Isaac Ong**.
+Created by **Isaac Ong**.  
 Special thanks to the Toronto GEx 2025 cohort.
