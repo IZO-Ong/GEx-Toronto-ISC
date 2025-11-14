@@ -252,8 +252,8 @@ export default function Page() {
         <figure className="my-6 block">
             <Image src="/images/sheryl.jpg" alt="Sheryl Bryan Phillips" width={1600} height={900} className="rounded-md border" />
             <figcaption className="caption-muted">
-              Sheryl Bryan Phillips, owner of Sheryl's Caribbean Cuisine, laments “We want to make plans but how 
-              can we plan in this kind of uncertainty? We're not sure, we don't know what's going to happen.” 
+              Sheryl Bryan Phillips, owner of Sheryl&apos;s Caribbean Cuisine, laments “We want to make plans but how 
+              can we plan in this kind of uncertainty? We&apos;re not sure, we don&apos;t know what&apos;s going to happen.” 
               (Photo from Brown, 2022)
             </figcaption>
         </figure>
