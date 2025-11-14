@@ -86,11 +86,6 @@ export default function Page() {
             in 2016, the average household income was $72,936, well below the city average of $102,721 (Pitter et al., 2023a, p. 27).
         </p>
 
-        <figure className="my-6 block lg:hidden">
-            <Image src="/images/littlejamaicaintro.jpg" alt="GEx group photo" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West</figcaption>
-        </figure>
-
         <p>
             Moreover, transportation access in Little Jamaica presents further challenges. About 60% of residents commute to work by car, 
             while 35% rely on public transit (Doyle et al., 2020a, p. 18). However, both modes of transportation face challenges. Drivers 
@@ -178,9 +173,16 @@ export default function Page() {
           shops to close (McLean, 2020).
         </p>
 
+        <figure className="my-6 block">
+            <Image src="/images/beni-bouka.jpg" alt="Beni Bouka" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Local business owner Beni Bouka describes the toll of construction on the neighbourhood: 
+              “I’ve got my neighbours closed down; there’s a hair salon next to me, they closed. They just can’t keep up with the rent 
+              and the drop in foot traffic … it’s very disheartening.” (Photo by McLean, 2020)</figcaption>
+        </figure>
+
         <figure className="my-6 block lg:hidden">
-            <Image src="/images/constructioneglinton.jpg" alt="Fairbank Station" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Construction along Eglinton West in 2020 (Baker et al., 2020)</figcaption>
+            <Image src="/images/constructioneglinton.jpg" alt="Sidewalk Closure at Eglinton" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Sidewalk closures in Eglinton West in 2020 (Photo by McLean, 2020)</figcaption>
         </figure>
 
         <p>
@@ -197,7 +199,7 @@ export default function Page() {
 
         <figure className="my-6 block lg:hidden">
             <Image src="/images/experienceeglinton.jpg" alt="Experience Eglington Photo" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Metrolinx’s (2019) Eglinton Crosstown LRT: Business Support Video, depicting wayfinding methods for businesses in Eglinton</figcaption>
+            <figcaption className="caption-muted">Metrolinx’s Experience Eglinton business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)</figcaption>
         </figure>
 
         <h2>Prolonged Delays and Uncertainty</h2>
@@ -246,6 +248,15 @@ export default function Page() {
             these conditions show how persistent delays create an environment of uncertainty that paralyses decision-making 
             and entrenches economic stagnation in Little Jamaica.
         </p>
+
+        <figure className="my-6 block">
+            <Image src="/images/sheryl.jpg" alt="Sheryl Bryan Phillips" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">
+              Sheryl Bryan Phillips, owner of Sheryl's Caribbean Cuisine, laments “We want to make plans but how 
+              can we plan in this kind of uncertainty? We're not sure, we don't know what's going to happen.” 
+              (Photo from Brown, 2022)
+            </figcaption>
+        </figure>
 
         <h2>Transit-Induced Displacement</h2>
         <p>
@@ -404,7 +415,7 @@ export default function Page() {
             period.
         </p>
 
-        <figure className="my-6 block lg:hidden">
+        <figure className="my-6 block">
             <Image src="/images/consultation.jpg" alt="Nick Alampi interview" width={1600} height={900} className="rounded-md border" />
             <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA. (Glover, 2022)</figcaption>
         </figure>
@@ -677,7 +688,7 @@ export default function Page() {
             </p>
 
             <p className="pl-6 -indent-6">
-              Spurr, B. (2018, March 25). <i>In a city desperate for more transit, for Toronto’s Little Jamaica it could be bad news</i>. Toronto.Com. https://www.toronto.com/news/in-a-city-desperate-for-more-transit-for-toronto-s-little-jamaica-it-could-be/article_9b9b3ddf-a8de-5a63-8092-68e3e128b0d2.html
+              Spurr, B. (2018, March 24). <i>In a city desperate for more transit, for Toronto’s Little Jamaica it could be bad news</i>. Toronto Star https://www.thestar.com/news/gta/in-a-city-desperate-for-more-transit-for-toronto-s-little-jamaica-it-could-be/article_c7fa4cd6-6b35-5021-ad44-6bb6a8ce3134.html
             </p>
 
             <p className="pl-6 -indent-6">
