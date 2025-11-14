@@ -751,11 +751,10 @@ export default function Page() {
             </p>
 
             <p className="border-l-4 border-[#E87722] pl-4 text-base italic leading-relaxed text-zinc-800 text-justify">
-              In wealthier areas like Riverdale, stronger 
-              mitigation efforts such as noise barriers were implemented early, while Little Jamaica received minimal support. 
-              Despite symbolic gestures like the Cultural District designation, the City failed to provide enforceable protections 
-              through heritage or affordable housing policies, and compensation initiatives have been limited, poorly targeted and 
-              lacked meaningful consultation.
+              while wealthier areas like Riverdale received early mitigation measures, Little Jamaica saw minimal support. 
+              Finally, symbolic gestures like Cultural District status were not matched with enforceable heritage or 
+              affordable-housing protections, and compensation programs have been limited, poorly targeted and weakly 
+              consulted. 
             </p>
           </div>
         </SidebarSection>
