@@ -10,17 +10,16 @@ export default function Page() {
     { src: "/images/littlejamaicaintro.jpg", alt: "Little Jamaica Intro Pic", caption: "Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West", className: "mt-0" },
     { src: "/images/trafficcongestion.jpg", alt: "Traffic Congestion in Little Jamaica", caption: "Little Jamaica faces severe traffic congestion: City council held a meeting to address the issue (City of Toronto, 2025)", className: "mt-0" },
     { src: "/images/fairbank.jpg", alt: "Fairbank Station", caption: "Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica", className: "mt-33" },
-    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Construction along Eglinton West in 2020 (Baker et al., 2020)", className: "mt-303" },
-    { src: "/images/experienceeglinton.jpg", alt: "Experience Eglinton Wayfinding 2019", caption: "Metrolinx’s (2019) Eglinton Crosstown LRT: Business Support Video, depicting wayfinding methods for businesses in Eglinton", className: "mt-0" },
-    { src: "/images/flyers.jpg", alt: "TTC Flyers", caption: "Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability", className: "mt-65" },
-    { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "City notice for new high-rise in Little Jamaica sparks vandalised comments: ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-140" },
-    { src: "/images/forrent.jpg", alt: "For Rent Signs outside Store", caption: "For rent sign placed outside of the store ‘Caribbean Slice’, a Black-owned business", className: "mt-42" },
+    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Sidewalk closures in Eglinton West in 2020 (Photo from McLean, 2020)", className: "mt-282" },
+    { src: "/images/experienceeglinton.jpg", alt: "Experience Eglinton Wayfinding 2019", caption: "Metrolinx’s Experience Eglinton business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)", className: "mt-130" },
+    { src: "/images/flyers.jpg", alt: "TTC Flyers", caption: "Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability", className: "mt-95" },
+    { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "A high-rise redevelopment notice in Little Jamaica is met with vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-355" },
+    { src: "/images/forrent.jpg", alt: "For Rent Signs outside Store", caption: "For rent sign placed outside of the store ‘Caribbean Slice’, a Black-owned business", className: "mt-25" },
     { src: "/images/forlease.jpg", alt: "For Lease Signs ", caption: "Stores with ‘For Lease’ or ‘For Rent’ signs are common along Little Jamaica", className: "mt-0" },
-    { src: "/images/noisebarrier.jpg", alt: "Noise Barrier at Riverdale", caption: "Noise Barrier constructed in Riverdale where Ontario Line construction will take place", className: "mt-100" },
+    { src: "/images/noisebarrier.jpg", alt: "Noise Barrier at Riverdale", caption: "Noise Barrier constructed in Riverdale where Ontario Line construction will take place", className: "mt-80" },
     { src: "/images/noiseblanket.jpg", alt: "Noise Blankets at Pape Avenue", caption: "Noise blankets being deployed at Ontario Line Construction site near Pape Avenue", className: "mt-0" },
     { src: "/images/papewayfinding.jpg", alt: "Wayfinding signs at Pape Avenue", caption: "Wayfinding measures were quickly deployed when construction blocked visibility of Storefronts in Pape Avenue", className: "mt-0" },
     { src: "/images/culturaldistrict.jpg", alt: "Poster celebrating Multicultural Day in Cultural District of Little Jamaica", caption: "Poster promoting Multicultural Day in Little Jamaica’s Cultural District", className: "mt-48" },
-    { src: "/images/consultation.jpg", alt: "Chair of York-Eglinton BIA frustration", caption: "‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA. (Glover, 2022)", className: "mt-0" },
   ];
 
   const [open, setOpen] = useState<GalleryItem | null>(null);
@@ -85,6 +84,11 @@ export default function Page() {
             Toronto (Black Business and Professional Association, n.d.). Yet, the neighbourhood remains socioeconomically vulnerable: 
             in 2016, the average household income was $72,936, well below the city average of $102,721 (Pitter et al., 2023a, p. 27).
         </p>
+
+        <figure className="my-6 block lg:hidden">
+            <Image src="/images/littlejamaicaintro.jpg" alt="Little Jamaica Street" width={1600} height={900} className="rounded-md border" />
+            <figcaption className="caption-muted">Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West</figcaption>
+        </figure>
 
         <p>
             Moreover, transportation access in Little Jamaica presents further challenges. About 60% of residents commute to work by car, 
@@ -177,12 +181,12 @@ export default function Page() {
             <Image src="/images/beni-bouka.jpg" alt="Beni Bouka" width={1600} height={900} className="rounded-md border" />
             <figcaption className="caption-muted">Local business owner Beni Bouka describes the toll of construction on the neighbourhood: 
               “I’ve got my neighbours closed down; there’s a hair salon next to me, they closed. They just can’t keep up with the rent 
-              and the drop in foot traffic … it’s very disheartening.” (Photo by McLean, 2020)</figcaption>
+              and the drop in foot traffic … it’s very disheartening.” (Photo from McLean, 2020)</figcaption>
         </figure>
 
         <figure className="my-6 block lg:hidden">
             <Image src="/images/constructioneglinton.jpg" alt="Sidewalk Closure at Eglinton" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Sidewalk closures in Eglinton West in 2020 (Photo by McLean, 2020)</figcaption>
+            <figcaption className="caption-muted">Sidewalk closures in Eglinton West in 2020 (Photo from McLean, 2020)</figcaption>
         </figure>
 
         <p>
@@ -279,7 +283,7 @@ export default function Page() {
 
         <figure className="my-6 block lg:hidden">
             <Image src="/images/citynotice.jpg" alt="City Notice for Building Development" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">City notice for a new high-rise in Little Jamaica sparks vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’</figcaption>
+            <figcaption className="caption-muted">A high-rise redevelopment notice in Little Jamaica is met with vandalised frustration — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’</figcaption>
         </figure>
 
         <p>
@@ -417,7 +421,7 @@ export default function Page() {
 
         <figure className="my-6 block">
             <Image src="/images/consultation.jpg" alt="Nick Alampi interview" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA. (Glover, 2022)</figcaption>
+            <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA (Photo from Glover, 2022)</figcaption>
         </figure>
 
         <p>
