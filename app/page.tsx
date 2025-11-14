@@ -39,7 +39,7 @@ export default function Page() {
         </h1>
           <figure className="my-6">
             <Image src="/images/littlejamaica.jpg" alt="Little Jamaica" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Little Jamaica continues to endure the ongoing impacts of the Eglinton Crosstown construction. As of September 2025, the line has yet to officially open — five years past its original 2020 target.</figcaption>
+            <figcaption className="caption-muted">Little Jamaica continues to endure the ongoing impacts of the Eglinton Crosstown construction. Shockingly, as of November 2025, the line has yet to officially open — four years past its original 2021 target.</figcaption>
           </figure>
 
           <div className="mt-6 flex items-center gap-3">
