@@ -751,7 +751,7 @@ export default function Page() {
             </p>
 
             <p className="border-l-4 border-[#E87722] pl-4 text-base italic leading-relaxed text-zinc-800 text-justify">
-              while wealthier areas like Riverdale received early mitigation measures, Little Jamaica saw minimal support. 
+              While wealthier areas like Riverdale received early mitigation measures, Little Jamaica saw minimal support. 
               Finally, symbolic gestures like Cultural District status were not matched with enforceable heritage or 
               affordable-housing protections, and compensation programs have been limited, poorly targeted and weakly 
               consulted. 
