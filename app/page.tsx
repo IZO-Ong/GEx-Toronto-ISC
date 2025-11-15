@@ -9,11 +9,11 @@ export default function Page() {
   const gallery: GalleryItem[] = [
     { src: "/images/littlejamaicaintro.jpg", alt: "Little Jamaica Intro Pic", caption: "Little Jamaica: A cultural hub for Black businesses and residents located in Eglinton West", className: "mt-0" },
     { src: "/images/trafficcongestion.jpg", alt: "Traffic Congestion in Little Jamaica", caption: "Little Jamaica faces severe traffic congestion: City council held a meeting to address the issue (City of Toronto, 2025)", className: "mt-0" },
-    { src: "/images/fairbank.jpg", alt: "Fairbank Station", caption: "Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica", className: "mt-33" },
-    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Sidewalk closures in Eglinton West in 2020 (Photo from McLean, 2020)", className: "mt-282" },
+    { src: "/images/fairbank.jpg", alt: "Fairbank Station", caption: "Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica", className: "mt-20" },
+    { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Sidewalk closures in Eglinton West in 2020 (Photo from McLean, 2020)", className: "mt-300" },
     { src: "/images/experienceeglinton.jpg", alt: "Experience Eglinton Wayfinding 2019", caption: "Metrolinx’s Experience Eglinton business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)", className: "mt-130" },
     { src: "/images/flyers.jpg", alt: "TTC Flyers", caption: "Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability", className: "mt-95" },
-    { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "A high-rise redevelopment notice in Little Jamaica is met with vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-355" },
+    { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "A high-rise redevelopment notice in Little Jamaica is met with vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-360" },
     { src: "/images/forrent.jpg", alt: "For Rent Signs outside Store", caption: "For rent sign placed outside of the store ‘Caribbean Slice’, a Black-owned business", className: "mt-25" },
     { src: "/images/forlease.jpg", alt: "For Lease Signs ", caption: "Stores with ‘For Lease’ or ‘For Rent’ signs are common along Little Jamaica", className: "mt-0" },
     { src: "/images/noisebarrier.jpg", alt: "Noise Barrier at Riverdale", caption: "Noise Barrier constructed in Riverdale where Ontario Line construction will take place", className: "mt-80" },
@@ -256,7 +256,7 @@ export default function Page() {
         <figure className="my-6 block">
             <Image src="/images/sheryl.jpg" alt="Sheryl Bryan Phillips" width={1600} height={900} className="rounded-md border" />
             <figcaption className="caption-muted">
-              Sheryl Bryan Phillips, owner of Sheryl&apos;s Caribbean Cuisine, laments “We want to make plans but how 
+              Sheryl Bryan Phillips, owner of Sheryl&apos;s Caribbean Cuisine, laments about the delays “We want to make plans but how 
               can we plan in this kind of uncertainty? We&apos;re not sure, we don&apos;t know what&apos;s going to happen.” 
               (Photo from Brown, 2022)
             </figcaption>
@@ -742,7 +742,7 @@ export default function Page() {
         {/* Highlights */}
         <SidebarSection title="Highlights">
 
-          <div className="space-y-10">
+          <div className="space-y-20">
             <p className="border-l-4 border-[#002D72] pl-4 text-base italic leading-relaxed text-zinc-800 text-justify">
               By failing to adequately mitigate and compensate for prolonged construction, sidewalk
               closures, excessive noise and the resulting gentrification and displacement, Metrolinx has led a marginalised 
