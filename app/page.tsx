@@ -618,7 +618,7 @@ export default function Page() {
             </p>
 
             <p className="pl-6 -indent-6">
-              Lewis, N. (2022). <i>The uneven racialized impacts of financialization</i>. The Office of the Federal Housing Advocate. https://www.homelesshub.ca/sites/default/files/attachments/Lewis-Financialization-Racialized-Impacts-ofha-en.pdf
+              Lewis, N. (2022). <i>The Uneven Racialized Impacts of Financialization: A Report for the Office of the Federal Housing Advocate</i>. https://www.homelesshub.ca/sites/default/files/attachments/Lewis-Financialization-Racialized-Impacts-ofha-en.pdf
             </p>
 
             <p className="pl-6 -indent-6">
