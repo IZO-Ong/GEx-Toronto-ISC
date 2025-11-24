@@ -196,7 +196,7 @@ export default function Page() {
             of assistance” that failed to address the fundamental issues of limited access and reduced foot traffic to Black-owned 
             businesses. Business owner McDonald agrees, remarking that the campaign “didn’t work” in restoring foot traffic to 
             pre-construction levels, as ongoing construction continued to drive people away from Eglinton (CBC News, 2019). Notably, 
-            <i>Experience Eglinton</i> was only launched in 2019, long after construction had begun in Little Jamaica in 2014 (Alamenciak, 2014). 
+            <i> Experience Eglinton</i> was only launched in 2019, long after construction had begun in Little Jamaica in 2014 (Alamenciak, 2014). 
             This delayed response significantly weakened its effectiveness; by the time the campaign was introduced, York-Eglinton BIA 
             reported that 40 to 45 percent of businesses between had already closed or relocated (McLean, 2019)
         </p>
