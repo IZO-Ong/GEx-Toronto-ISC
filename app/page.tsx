@@ -11,7 +11,7 @@ export default function Page() {
     { src: "/images/trafficcongestion.jpg", alt: "Traffic Congestion in Little Jamaica", caption: "Little Jamaica faces severe traffic congestion: City council held a meeting to address the issue (City of Toronto, 2025)", className: "mt-0" },
     { src: "/images/fairbank.jpg", alt: "Fairbank Station", caption: "Fairbank station: One of the stations of the Eglinton Crosstown LRT in Little Jamaica", className: "mt-20" },
     { src: "/images/constructioneglinton.jpg", alt: "Eglinton Construction in 2020", caption: "Sidewalk closures in Eglinton West in 2020 (Photo from McLean, 2020)", className: "mt-300" },
-    { src: "/images/experienceeglinton.jpg", alt: "Experience Eglinton Wayfinding 2019", caption: "Metrolinx’s Experience Eglinton business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)", className: "mt-130" },
+    { src: "/images/experienceeglinton.jpg", alt: "<i>Experience Eglinton</i> Wayfinding 2019", caption: "Metrolinx’s <i>Experience Eglinton</i> business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)", className: "mt-130" },
     { src: "/images/flyers.jpg", alt: "TTC Flyers", caption: "Flyers in Little Jamaica highlight frustration with long bus wait times, calling for transit lanes to improve service reliability", className: "mt-95" },
     { src: "/images/citynotice.jpg", alt: "City Notice for High-rise", caption: "A high-rise redevelopment notice in Little Jamaica is met with vandalised comments — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’", className: "mt-360" },
     { src: "/images/forrent.jpg", alt: "For Rent Signs outside Store", caption: "For rent sign placed outside of the store ‘Caribbean Slice’, a Black-owned business", className: "mt-25" },
@@ -54,8 +54,8 @@ export default function Page() {
        {/* === START OF ARTICLE BODY === */}
         <section className="mt-6 space-y-4 text-[1.05rem] leading-8 text-justify">
         <p>
-            Transit equity — the fair distribution of transportation benefits and burdens — is a relatively recent framework through 
-            which transit planners seek to improve conditions for disadvantaged communities (Karner et al., 2020). In its 2016 equity 
+            Transit equity — the fair distribution of transportation benefits and burdens — is a relatively recent framework that guides 
+            transit planners to improve conditions for disadvantaged communities (Karner et al., 2020). In its 2016 equity 
             report, Metrolinx — Ontario’s provincially owned transportation agency — employed transit equity to justify expanding transit 
             nfrastructure into low-income and underserved areas. Their stated aim is to enhance accessibility and reduce travel times for 
             Toronto’s most vulnerable neighbourhoods, thereby improving access to employment, essential services and regional mobility 
@@ -77,8 +77,8 @@ export default function Page() {
 
         <h2>Background of Little Jamaica</h2>
         <p>
-            Little Jamaica, also known as Eglinton West, is an ethnic enclave situated northwest of Toronto’s city centre, and doubles as a 
-            commercial corridor and a residential zone home to Caribbean and African immigrants (City of Toronto, 2021). In the 1960s, an 
+            Little Jamaica, also known as Eglinton West, is an ethnic enclave northwest of Toronto’s city centre that doubles as a 
+            commercial corridor and a residential zone for Caribbean and African immigrants (City of Toronto, 2021). In the 1960s, an 
             influx of Jamaicans arrived under the West Indian Domestic Scheme, forming the first wave of Black immigrants in the area 
             (Davis, 2022). Today, Little Jamaica boasts the highest concentration of Black and Caribbean-owned businesses in the City of 
             Toronto (Black Business and Professional Association, n.d.). Yet, the neighbourhood remains socioeconomically vulnerable: 
@@ -151,7 +151,7 @@ export default function Page() {
             overnight work on the Eglinton Crosstown project (Mannsbach, 2016). Another key factor that worsened the noise and vibration 
             impacts was Metrolinx’s heavy reliance on the cut-and-cover construction method. This approach entails excavating a trench and 
             building the tunnel inside it. Of the 15 stations constructed along the line, 11 used this approach (Metrolinx, 2017). While more 
-            cost-effective than the alternative method of bored tunnelling — where tunnels are excavated horizontally underground using a 
+            cost-effective than bored tunnelling — where tunnels are excavated horizontally underground using a 
             tunnel-boring machine — cut-and-cover causes far greater surface disruption (Potter, 2024). As one Queen Street West BIA member 
             observed when comparing with the Ontario Line, “the key difference is because the Eglinton line was cut-and-cover, so by nature 
             that’s already going to be very disruptive” (Fleguel, 2023). 
@@ -167,7 +167,7 @@ export default function Page() {
             such as Kozeta Salon were forced to suspend operations due to excessive noise (Mannsbach, 2016).
         </p>
 
-        <h3>Sidewalk Closures and Reduced Visibility</h3>
+        <h3>Sidewalk Closures and Reduced Visibility of Storefronts</h3>
         <p>
           Another major challenge for businesses in Little Jamaica was the loss of foot traffic due to sidewalk closures and obstructed 
           storefronts. Many businesses relied heavily on walk-in customers for survival (Baker et al., 2020, p. 19; Bessonov, 2020). 
@@ -190,20 +190,20 @@ export default function Page() {
         </figure>
 
         <p>
-            Metrolinx did attempt to mitigate the impact by partnering with local BIAs to launch Experience Eglinton — a campaign aimed 
+            Metrolinx did attempt to mitigate the impact by partnering with local BIAs to launch <i>Experience Eglinton</i> — a campaign aimed 
             at encouraging continued shopping along the corridor (CBC News, 2019). The initiative included digital marketing, improved 
             wayfinding and signages (Metrolinx, 2019). However, Baker et al. (2020, p. 19) dismissed these measures as “token gestures 
             of assistance” that failed to address the fundamental issues of limited access and reduced foot traffic to Black-owned 
             businesses. Business owner McDonald agrees, remarking that the campaign “didn’t work” in restoring foot traffic to 
             pre-construction levels, as ongoing construction continued to drive people away from Eglinton (CBC News, 2019). Notably, 
-            Experience Eglinton was only launched in 2019, long after construction had begun in Little Jamaica in 2014 (Alamenciak, 2014). 
+            <i>Experience Eglinton</i> was only launched in 2019, long after construction had begun in Little Jamaica in 2014 (Alamenciak, 2014). 
             This delayed response significantly weakened its effectiveness; by the time the campaign was introduced, York-Eglinton BIA 
             reported that 40 to 45 percent of businesses between had already closed or relocated (McLean, 2019)
         </p>
 
         <figure className="my-6 block lg:hidden">
             <Image src="/images/experienceeglinton.jpg" alt="Experience Eglington Photo" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">Metrolinx’s Experience Eglinton business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)</figcaption>
+            <figcaption className="caption-muted">Metrolinx’s <i>Experience Eglinton</i> business support video, depicting wayfinding methods for businesses (Photo from Metrolinx, 2019)</figcaption>
         </figure>
 
         <h2>Prolonged Delays and Uncertainty</h2>
@@ -267,10 +267,11 @@ export default function Page() {
             A further long-term consequence of the Eglinton Crosstown project is the risk of transit-induced gentrification and 
             displacement. Gentrification refers to the influx of higher-income residents into historically low- or middle-income 
             neighbourhoods, while displacement involves the often involuntary departure of existing residents and businesses. 
-            As Zuk et al. (2018, pp. 39, 40) notes, public transit investments often lead to gentrification and displacement, 
+            As Zuk et al. (2018, pp. 39, 40) note, public transit investments often lead to gentrification and displacement, 
             as rising property values attract higher-income residents while existing communities are pushed out.
         </p>
 
+        <h3>Speculative Property Investment as a Prelude to Gentrification</h3>
         <p>
             In Little Jamaica, however, gentrification has not taken place yet; rather, the neighbourhood is experiencing conditions 
             that precede gentrification, driven primarily by financialised landlords — firms that purchase and manage rental properties 
@@ -286,13 +287,14 @@ export default function Page() {
             <figcaption className="caption-muted">A high-rise redevelopment notice in Little Jamaica is met with vandalised frustration — ‘Knock this down when they haven’t started building across the street in almost 4 years?!’</figcaption>
         </figure>
 
+        <h3>Transit-induced Displacement from Rising Rents</h3>
         <p>
             Unfortunately, property speculation has driven sharp increases in rents and property prices, intensifying displacement 
             pressures on Little Jamaica’s long-standing communities. Although affordable housing has been repeatedly identified as a 
             top community priority, between 2011 and 2021 property prices rose by 66%, far outpacing the 10% growth in household 
             incomes. Over roughly the same period (2006-2016), the neighbourhood’s overall population declined by 5%. The impact 
             was even more pronounced for the more economically vulnerable Black population, whose homeownership rate (26%) is far 
-            below the city-wide figure (53%), as their numbers fell by 13%, a rate three times higher. (CP Planning, 2021, pp. 14, 15).
+            below the city-wide figure (53%), as their numbers fell by 13%, a rate three times higher (CP Planning, 2021, pp. 14, 15).
         </p>
 
         <p>
@@ -421,7 +423,7 @@ export default function Page() {
 
         <figure className="my-6 block">
             <Image src="/images/consultation.jpg" alt="Nick Alampi interview" width={1600} height={900} className="rounded-md border" />
-            <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of the York-Eglinton BIA (Photo from Glover, 2022)</figcaption>
+            <figcaption className="caption-muted">‘Of that $3 million … they never asked us nor did they consult us,’ said Nick Alampi, chair of York-Eglinton BIA (Photo from Glover, 2022)</figcaption>
         </figure>
 
         <p>
@@ -438,17 +440,17 @@ export default function Page() {
 
         <h2>Conclusion</h2>
         <p>
-            The construction of the Eglinton Crosstown LRT has fallen short of Metrolinx’s equity goals. Sidewalk closures, hoarding and delays 
-            have reduced storefront visibility, deterred foot traffic. disrupted travel and created uncertainty for residents and local 
-            businesses. Concurrently, the project has accelerated displacement of the Black community, and while wealthier areas like 
-            Riverdale received early mitigation measures, Little Jamaica saw minimal support. Finally, symbolic gestures like Cultural 
-            District status were not matched with enforceable heritage or affordable-housing protections, and compensation programs have 
-            been limited, poorly targeted and weakly consulted. Together, these outcomes reveal Metrolinx’s failure to embed equity in 
-            transit delivery, leaving Little Jamaica to bear disproportionate harms from a project intended to benefit it.
+            The construction of Eglinton Crosstown LRT has fallen short of Metrolinx’s equity goals. Sidewalk closures, hoarding and 
+            repeated delays have reduced storefront visibility, deterred foot traffic and created uncertainty for residents and 
+            businesses. At the same time, the project has accelerated displacement in Little Jamaica, where mitigation and support lagged 
+            far behind wealthier areas like Riverdale. Symbolic gestures such as Cultural District status were never matched with enforceable 
+            heritage or housing protections, and compensation programs remained limited, poorly targeted and weakly consulted. Taken together, 
+            these outcomes show Metrolinx’s failure to embed equity into transit delivery, leaving Little Jamaica to bear disproportionate 
+            harms from a project meant to support it.
         </p>
 
         <p>
-            Word Count: 3000
+            Word Count: 3000 words
         </p>
         </section>
         {/* === END ARTICLE BODY === */}
