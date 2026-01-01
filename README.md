@@ -1,15 +1,11 @@
 # GEx Toronto 2025 ISC submission
 
 A single-article news feature built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
-This project was created to showcase a long-form article with responsive typography, a sidebar image gallery, and a lightbox viewer.
+This project was created to showcase a long-form article with a sidebar image gallery.
 
 <p align="center">
   <a href="https://gex-toronto-isc.vercel.app/">Live Demo</a> •
   <a href="LICENSE">MIT License</a>
-</p>
-
-<p align="center">
-  <em>Single-article news feature with responsive typography, a sidebar image gallery, and a lightbox viewer.</em>
 </p>
 
 <p align="center">
